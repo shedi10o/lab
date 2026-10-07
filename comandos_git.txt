@@ -1,0 +1,23 @@
+# ==========================================
+# COMANDOS PARA SUBIR A GITHUB
+# ==========================================
+# Copia y pega estos comandos en la terminal de VS Code uno por uno:
+
+# 1. Iniciar el repositorio local
+git init
+
+# 2. Agregar los archivos
+git add .
+
+# 3. Guardar la versión con un mensaje
+git commit -m "Entrega Prelaboratorio 3"
+
+# 4. Establecer la rama principal como 'main'
+git branch -M main
+
+# 5. Conectar con tu repositorio en GitHub
+# (REEMPLAZA el enlace por el enlace HTTPS de tu repositorio en GitHub)
+git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+
+# 6. Subir los archivos a GitHub
+git push -u origin main
